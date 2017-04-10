@@ -8,7 +8,7 @@ body {
 }
 
 .jumbotron {
-  color: rgba(14, 53, 98, 0.79);
+  color: rgba(14, 53, 98, 0.8);
   background: #e1eaec;
 }
 
@@ -25,9 +25,9 @@ body {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .navbar-inverse .navbar-brand {
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
 }
