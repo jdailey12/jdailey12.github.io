@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>US Pharma</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="bootstrap.js">
+    <link rel="shortcut icon" href="img/jondailey.ico"/>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="bootstrap.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+            <a href="index.html" class="navbar-brand visible-xs"> USPC Portal</a>
+
+        </div>
+        <div class="collapse navbar-collapse" id="hamburger">
+
+          <ul class="nav navbar-nav">
+            <li class="visible-lg visible-md visible-sm"><a href="index.html" class="navbar-brand"> USPC Portal</a></li>
+            <li class="visible-xs"><a href="index.html"> USPC Portal</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="discussion.html">Discussion</a></li>
+            <li><a href="people.html">People</a></li>
+            <li class="active"><a href="research.html">Research Library</a></li>
+            <li><a href="teams.html">Teams</a></li>
+
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="account.html" target="blank"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Account</a></li>
+            <!-- <li><a href="#" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="jumbotron">
+        <h1><i class="fa fa-comments" aria-hidden="true"></i> USPC Research</h1>
+        <p>The library for logging and reading USPC research. This information is case-sensitive and can only be reached while logged in. You will not be able to see project research unless you are assigned to that project.</p>
+      </div>
+      <div class="info">
+      <h3>Research Quicklinks</h3>
+      <blockquote>
+        <a href="https://www.fda.gov/">FDA</a>
+        <br>
+        <a href="https://www.ifpma.org/">IFPMA</a>
+        <br>
+        <a href="https://health.gov/">Health</a>
+        <br>
+        <a href="https://www.ed.gov/">Education</a>
+
+      </blockquote>
+      <h3>Add a New Research</h3>
+      <blockquote>
+        <p><input type="text" class="form-control" placeholder="Project Title"></p>
+        <p><input type="number" class="form-control" placeholder="Update Number"></p>
+        <p><textarea class="form-control" rows="3" placeholder="Log all information about your research here, including status of the project."></textarea></p>
+        <p><input name="myFile" class="form-control" type="file"></p>
+        <button type="submit" class="btn btn-default">Submit</button>
+
+      </blockquote>
+      <h3>Search Research Database</h3>
+      <blockquote>
+        <p>
+          <form class="form-inline">
+          <div class="form-group">
+            <input type="text" class="form-control" id="search" placeholder="Enter Search Terms">
+          </div>
+            <button type="submit" class="btn btn-default">Search</button>
+          </form>
+        </p>
+      </blockquote>
+      <h3>Latest Research Submissions</h3>
+      <blockquote>
+        <ul>
+          <a href="sample.html"><li>Project: Cold Prevention | Number: 289 | Submitted by: Paul Warner</li></a>
+          <a href="sample.html"><li>Project: Age Reversal | Number: 1837 | Submitted by: Karen Sander</li></a>
+          <a href="sample.html"><li>Project: Wrinkle Reliever | Number: 102 | Submitted by: Karen Sanders</li></a>
+          <a href="sample.html"><li>Project: Cancer Cure | Number: 347 | Submitted by: Paul Warner</li></a>
+        </ul>
+      </blockquote>
+
+    </div>
+
+    <div id="footer">Copyright United States Pharmaceutical Corporation 2017 &copy;
+    </div>
+    <br>
+  </body>
+</html>

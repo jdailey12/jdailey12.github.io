@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>US Pharma</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="bootstrap.js">
+    <link rel="stylesheet" href="contacts.css">
+    <link rel="shortcut icon" href="img/jondailey.ico"/>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="bootstrap.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+            <a href="index.html" class="navbar-brand visible-xs"> USPC Portal</a>
+
+        </div>
+        <div class="collapse navbar-collapse" id="hamburger">
+
+          <ul class="nav navbar-nav">
+            <li class="visible-lg visible-md visible-sm"><a href="index.html" class="navbar-brand"> USPC Portal</a></li>
+            <li class="visible-xs"><a href="index.html"> USPC Portal</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="discussion.html">Discussion</a></li>
+            <li class="active"><a href="people.html">People</a></li>
+            <li><a href="research.html">Research Library</a></li>
+            <li><a href="teams.html">Teams</a></li>
+
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="account.html" target="blank"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Account</a></li>
+            <!-- <li><a href="#" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="jumbotron">
+        <h1><i class="fa fa-address-book-o" aria-hidden="true"></i> USPC People</h1>
+        <p>The employees of USPC and their contact information. Find your co-workers here if you need to contact them.</p>
+      </div>
+      <div class="info">
+
+      <h3>Search Contacts</h3>
+      <blockquote>
+        <p>
+          <form class="form-inline">
+          <div class="form-group">
+            <input type="text" class="form-control" id="search" placeholder="Enter Name">
+          </div>
+            <button type="submit" class="btn btn-default">Search</button>
+          </form>
+        </p>
+      </blockquote>
+      <h3>Contact List</h3>
+      <div class="contacts table" aria-labelledby="contacts-caption-text">
+  <div class="contacts-header thead">
+    <span class="th" id="th-name">Name:</span>
+    <span class="th" id="th-org">Role:</span>
+    <span class="th" id="th-phone">Phone:</span>
+    <span class="th" id="th-email">Email:</span>
+  </div>
+  <ul class="tbody">
+    <li class="tr" itemscope itemtype="http://schema.org/Person">
+      <span class="td">
+        <span class="label">Name:</span>
+        <span class="data" itemprop="name" aria-labelledby="th-name">Hide Burningham</span>
+      </span>
+      <span class="td" itemscope itemtype="http://schema.org/Organization">
+        <span class="label">Role:</span>
+        <span class="data" itemprop="name" aria-labelledby="th-org">CEO</span>
+      </span>
+      <span class="td">
+        <span class="label">Phone:</span>
+        <span class="data" itemprop="telephone" aria-labelledby="th-phone">234-555-5678x3890</span>
+      </span>
+      <span class="td">
+        <span class="label">Email:</span>
+        <span class="data" itemprop="email" aria-labelledby="th-email"><a href="#">hburn@uspc.org</a></span>
+      </span>
+    </li>
+    <li class="tr" itemscope itemtype="http://schema.org/Person">
+      <span class="td">
+        <span class="label">Name:</span>
+        <span class="data" itemprop="name" aria-labelledby="th-name">Karen Sanders</span>
+      </span>
+      <span class="td" itemscope itemtype="http://schema.org/Organization">
+        <span class="label">Role:</span>
+        <span class="data" itemprop="name" aria-labelledby="th-org">Research</span>
+      </span>
+      <span class="td">
+        <span class="label">Phone:</span>
+        <span class="data" itemprop="telephone" aria-labelledby="th-phone">234-555-5678x3820</span>
+      </span>
+      <span class="td">
+        <span class="label">Email:</span>
+        <span class="data" itemprop="email" aria-labelledby="th-email"><a href="#">ksand@uspc.org</a></span>
+      </span>
+    </li>
+
+    <li class="tr" itemscope itemtype="http://schema.org/Person">
+      <span class="td">
+        <span class="label">Name:</span>
+        <span class="data" itemprop="name" aria-labelledby="th-name">Paul Warner</span>
+      </span>
+      <span class="td" itemscope itemtype="http://schema.org/Organization">
+        <span class="label">Role:</span>
+        <span class="data" itemprop="name" aria-labelledby="th-org">Research</span>
+      </span>
+      <span class="td">
+        <span class="label">Phone:</span>
+        <span class="data" itemprop="telephone" aria-labelledby="th-phone">234-555-5678x3895</span>
+      </span>
+      <span class="td">
+        <span class="label">Email:</span>
+        <span class="data" itemprop="email" aria-labelledby="th-email"><a href="#">pwarn@uspc.org</a></span>
+      </span>
+    </li>
+
+    <li class="tr" itemscope itemtype="http://schema.org/Person">
+      <span class="td">
+        <span class="label">Name:</span>
+        <span class="data" itemprop="name" aria-labelledby="th-name">Bertha Ray</span>
+      </span>
+      <span class="td" itemscope itemtype="http://schema.org/Organization">
+        <span class="label">Role:</span>
+        <span class="data" itemprop="name" aria-labelledby="th-org">Marketing</span>
+      </span>
+      <span class="td">
+        <span class="label">Phone:</span>
+        <span class="data" itemprop="telephone" aria-labelledby="th-phone">234-555-5678x3840</span>
+      </span>
+      <span class="td">
+        <span class="label">Email:</span>
+        <span class="data" itemprop="email" aria-labelledby="th-email"><a href="#">bray@uspc.org</a></span>
+      </span>
+    </li>
+
+    <li class="tr" itemscope itemtype="http://schema.org/Person">
+      <span class="td">
+        <span class="label">Name:</span>
+        <span class="data" itemprop="name" aria-labelledby="th-name">Vincent Smith</span>
+      </span>
+      <span class="td" itemscope itemtype="http://schema.org/Organization">
+        <span class="label">Role:</span>
+        <span class="data" itemprop="name" aria-labelledby="th-org">Finance</span>
+      </span>
+      <span class="td">
+        <span class="label">Phone:</span>
+        <span class="data" itemprop="telephone" aria-labelledby="th-phone">234-555-5678x3296</span>
+      </span>
+      <span class="td">
+        <span class="label">Email:</span>
+        <span class="data" itemprop="email" aria-labelledby="th-email"><a href="#">vsmith@uspc.org</a></span>
+      </span>
+    </li>
+
+    <li class="tr" itemscope itemtype="http://schema.org/Person">
+      <span class="td">
+        <span class="label">Name:</span>
+        <span class="data" itemprop="name" aria-labelledby="th-name">Robert Witt</span>
+      </span>
+      <span class="td" itemscope itemtype="http://schema.org/Organization">
+        <span class="label">Role:</span>
+        <span class="data" itemprop="name" aria-labelledby="th-org">Information Technology</span>
+      </span>
+      <span class="td">
+        <span class="label">Phone:</span>
+        <span class="data" itemprop="telephone" aria-labelledby="th-phone">234-555-5678x3239</span>
+      </span>
+      <span class="td">
+        <span class="label">Email:</span>
+        <span class="data" itemprop="email" aria-labelledby="th-email"><a href="#">rwitt@uspc.org</a></span>
+      </span>
+    </li>
+
+    <li class="tr" itemscope itemtype="http://schema.org/Person">
+      <span class="td">
+        <span class="label">Name:</span>
+        <span class="data" itemprop="name" aria-labelledby="th-name">Jennie Dill</span>
+      </span>
+      <span class="td" itemscope itemtype="http://schema.org/Organization">
+        <span class="label">Role:</span>
+        <span class="data" itemprop="name" aria-labelledby="th-org">Accounting</span>
+      </span>
+      <span class="td">
+        <span class="label">Phone:</span>
+        <span class="data" itemprop="telephone" aria-labelledby="th-phone">234-555-5678x1840</span>
+      </span>
+      <span class="td">
+        <span class="label">Email:</span>
+        <span class="data" itemprop="email" aria-labelledby="th-email"><a href="#">jdill@uspc.org</a></span>
+      </span>
+    </li>
+
+  </ul>
+</div>
+
+<b>Page 1</b> - <a href="#">Page 2</a> - <a href="#">Page 3</a> - <a href="#">Page 4</a>
+
+    <br>
+
+    </div>
+<br>
+    <div id="footer">Copyright United States Pharmaceutical Corpoation 2017 &copy;
+    </div>
+    <br>
+  </body>
+</html>

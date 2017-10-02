@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>US Pharma</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="bootstrap.js">
+    <link rel="stylesheet" href="contacts.css">
+    <link rel="shortcut icon" href="img/jondailey.ico"/>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="bootstrap.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburger" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+            <a href="index.html" class="navbar-brand visible-xs"> USPC Portal</a>
+
+        </div>
+        <div class="collapse navbar-collapse" id="hamburger">
+
+          <ul class="nav navbar-nav">
+            <li class="visible-lg visible-md visible-sm"><a href="index.html" class="navbar-brand"> USPC Portal</a></li>
+            <li class="visible-xs"><a href="index.html"> USPC Portal</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><a href="discussion.html">Discussion</a></li>
+            <li><a href="people.html">People</a></li>
+            <li><a href="research.html">Research Library</a></li>
+            <li class="active"><a href="teams.html">Teams</a></li>
+
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="account.html" target="blank"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Your Account</a></li>
+            <!-- <li><a href="#" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="jumbotron">
+        <h1><i class="fa fa-users" aria-hidden="true"></i> Your Team</h1>
+        <p>Work together with your team on USPC projects.</p>
+      </div>
+      <h1>Team Information</h1>
+      <div class="info">
+      <h3>Team List</h3>
+      <div class="contacts table" aria-labelledby="contacts-caption-text">
+  <div class="contacts-header thead">
+    <span class="th" id="th-name">Name:</span>
+    <span class="th" id="th-org">Role:</span>
+    <span class="th" id="th-phone">Phone:</span>
+    <span class="th" id="th-email">Email:</span>
+  </div>
+  <ul class="tbody">
+    <li class="tr" itemscope itemtype="http://schema.org/Person">
+      <span class="td">
+        <span class="label">Name:</span>
+        <span class="data" itemprop="name" aria-labelledby="th-name">Hide Burningham</span>
+      </span>
+      <span class="td" itemscope itemtype="http://schema.org/Organization">
+        <span class="label">Role:</span>
+        <span class="data" itemprop="name" aria-labelledby="th-org">Project Leader</span>
+      </span>
+      <span class="td">
+        <span class="label">Phone:</span>
+        <span class="data" itemprop="telephone" aria-labelledby="th-phone">234-555-5678x3890</span>
+      </span>
+      <span class="td">
+        <span class="label">Email:</span>
+        <span class="data" itemprop="email" aria-labelledby="th-email"><a href="#">hburn@uspc.org</a></span>
+      </span>
+    </li>
+    <li class="tr" itemscope itemtype="http://schema.org/Person">
+      <span class="td">
+        <span class="label">Name:</span>
+        <span class="data" itemprop="name" aria-labelledby="th-name">Karen Sanders</span>
+      </span>
+      <span class="td" itemscope itemtype="http://schema.org/Organization">
+        <span class="label">Role:</span>
+        <span class="data" itemprop="name" aria-labelledby="th-org">Research</span>
+      </span>
+      <span class="td">
+        <span class="label">Phone:</span>
+        <span class="data" itemprop="telephone" aria-labelledby="th-phone">234-555-5678x3820</span>
+      </span>
+      <span class="td">
+        <span class="label">Email:</span>
+        <span class="data" itemprop="email" aria-labelledby="th-email"><a href="#">ksand@uspc.org</a></span>
+      </span>
+    </li>
+
+    <li class="tr" itemscope itemtype="http://schema.org/Person">
+      <span class="td">
+        <span class="label">Name:</span>
+        <span class="data" itemprop="name" aria-labelledby="th-name">Paul Warner</span>
+      </span>
+      <span class="td" itemscope itemtype="http://schema.org/Organization">
+        <span class="label">Role:</span>
+        <span class="data" itemprop="name" aria-labelledby="th-org">Research</span>
+      </span>
+      <span class="td">
+        <span class="label">Phone:</span>
+        <span class="data" itemprop="telephone" aria-labelledby="th-phone">234-555-5678x3895</span>
+      </span>
+      <span class="td">
+        <span class="label">Email:</span>
+        <span class="data" itemprop="email" aria-labelledby="th-email"><a href="#">pwarn@uspc.org</a></span>
+      </span>
+    </li>
+
+    <h3>Projects Assigned</h3>
+    <li class="tr" itemscope itemtype="http://schema.org/Person">
+      <span class="td">
+        <span class="label">Name:</span>
+        <span class="data" itemprop="name" aria-labelledby="th-name"><a href="#">Age Reversal</a></span>
+      </span>
+    </li>
+    <li class="tr" itemscope itemtype="http://schema.org/Person">
+      <span class="td">
+        <span class="label">Name:</span>
+        <span class="data" itemprop="name" aria-labelledby="th-name"><a href="#">Cold Protection</a></span>
+      </span>
+    </li>
+
+  </ul>
+
+</div>
+<h1>Team Database</h1>
+<h3>Search Team Database</h3>
+<blockquote>
+  <p>
+    <form class="form-inline">
+    <div class="form-group">
+      <input type="text" class="form-control" id="search" placeholder="Enter Name">
+    </div>
+      <button type="submit" class="btn btn-default">Search</button>
+    </form>
+  </p>
+</blockquote>
+<h3>Add a New Research</h3>
+<blockquote>
+  <p>
+
+<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    Choose project...
+    <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    <li><a href="#">Age Reversal</a></li>
+    <li><a href="#">Cold Protection</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Start New Project</a></li>
+  </ul>
+</div>
+
+  </p>
+  <p><textarea class="form-control" rows="3" placeholder="Log all information about your research here, including status of the project."></textarea></p>
+  <p><input name="myFile" class="form-control" type="file"></p>
+  <button type="submit" class="btn btn-default">Submit</button>
+
+</blockquote>
+<h3>Latest Research Submissions</h3>
+<blockquote>
+  <ul>
+    <a href="#"><li>Project: Cold Prevention | Number: 289 | Submitted by: Paul Warner</li></a>
+    <a href="#"><li>Project: Age Reversal | Number: 1837 | Submitted by: Karen Sander</li></a>
+    <a href="#"><li>Project: Wrinkle Reliever | Number: 102 | Submitted by: Karen Sanders</li></a>
+    <a href="#"><li>Project: Cancer Cure | Number: 347 | Submitted by: Paul Warner</li></a>
+  </ul>
+</blockquote>
+
+<h1>Team Discussion</h1>
+<h3>Add a New Thread</h3>
+<blockquote>
+  <p><input type="text" class="form-control" placeholder="Title"></p>
+  <p><textarea class="form-control" rows="3" placeholder="Message"></textarea></p>
+  <button type="submit" class="btn btn-default">Submit</button>
+
+</blockquote>
+<h3>Search Discussion</h3>
+<blockquote>
+  <p>
+    <form class="form-inline">
+    <div class="form-group">
+      <input type="text" class="form-control" id="search" placeholder="Enter Search Terms">
+    </div>
+      <button type="submit" class="btn btn-default">Search</button>
+    </form>
+  </p>
+</blockquote>
+<h3>Latest Discussion Threads</h3>
+<blockquote>
+  <ul>
+    <a href="sample.html"><li>What is the status of the age reversal program?</li></a>
+    <a href="sample.html"><li>What was the conslusion of experiment 193??</li></a>
+    <a href="sample.html"><li>Can I access the portal from my phone???</li></a>
+    <a href="sample.html"><li>I think I found a solution for the "cure-it-all" project</li></a>
+  </ul>
+</blockquote>
+
+    <br>
+
+    </div>
+<br>
+    <div id="footer">Copyright United States Pharmaceutical Corpoation 2017 &copy;
+    </div>
+    <br>
+  </body>
+</html>
